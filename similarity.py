@@ -344,7 +344,7 @@ def similarity(cp, project):
 					ax.scatter(yrealrest, xrealrest, c='red', label='measured unused', alpha=0.6, edgecolors='none', s=12)
 			ax.legend()
 			ax.grid(True)
-		fig.savefig(datapath+os.sep+project+os.sep+'plots'+os.sep+name+'.png', transparent=False, dpi=80, bbox_inches="tight")
+		fig.savefig(datapath+os.sep+project+os.sep+'plots'+os.sep+name+'.png', transparent=False, dpi=300, bbox_inches="tight")
 		i+=1
 		plt.close()
 		
